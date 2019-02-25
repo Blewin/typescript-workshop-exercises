@@ -1,0 +1,15 @@
+type IceCreamData = {bestIceCream: string};
+type OfficialRecord = {firstname: string; lastname: string};
+
+type UserData = {
+  name: string,
+  favouriteIceCream: string,
+} | (
+ OfficialRecord & IceCreamData
+)
+
+type UserList = UserData[];
+
+const favouriteIceCreams = (userDataArray: UserList): string[] => {
+ //?
+}

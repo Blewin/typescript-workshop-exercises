@@ -1,0 +1,23 @@
+interface Square {
+    kind: "square";
+    size: number;
+}
+interface Rectangle {
+    kind: "rectangle";
+    width: number;
+    height: number;
+}
+interface Circle {
+    kind: "circle";
+    radius: number;
+}
+
+type Shape = Square | Rectangle | Circle;
+
+const area = (shape: Shape): number => {
+ return 0;
+}
+
+console.log(area({kind: 'square', size:5}))
+console.log(area({kind: 'rectangle', width:5, height: 20}))
+console.log(area({kind: 'circle', radius:17)))

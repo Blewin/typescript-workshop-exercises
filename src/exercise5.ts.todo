@@ -1,0 +1,7 @@
+const sum = (a, b) => a + b;
+
+const applyTwo = //????
+
+console.log(applyTwo(1, 2, sum);
+console.log(applyTwo(3, 5, sum);
+console.log(applyTwo('a', 'b', (a, b) => b + a + b + a);

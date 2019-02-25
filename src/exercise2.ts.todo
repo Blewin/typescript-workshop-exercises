@@ -1,0 +1,14 @@
+interface Person {
+    firstName: string;
+    lastName: string;
+}
+
+class Zbigniew implements Person {
+//tutaj zmiany
+}
+
+class Franek extends Zbigniew {
+    //co tutaj potrzebne
+}
+
+console.log(new Zbigniew().firstName, new Franek().lastName);
