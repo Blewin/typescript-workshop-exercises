@@ -1,0 +1,5 @@
+type helloPrinterType = never;
+const helloPrinter: helloPrinterType = (world) => console.log(`Hello ${world}`)
+
+type arrayMapperType = never;
+const arrayMapper: arrayMapperType = (array, fun) => array.map(fun);
